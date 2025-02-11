@@ -1,0 +1,8 @@
+{
+    "name": "bun-hono-drizzle-clerk-starter",
+    "description": "IDX starter template to setup bun server with Hono API secured by clerk.",
+    "categories": ["Web app", "Backend"],
+    "icon": "",
+    "website": "https://bun.sh/",
+    "publisher": "Srivats Jayaram"
+  }
