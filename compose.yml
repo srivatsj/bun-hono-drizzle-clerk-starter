@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - bun-network
+
+volumes:
+  postgres_data:
+
+networks:
+  bun-network:
+    driver: bridge
