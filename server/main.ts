@@ -5,7 +5,7 @@ import { getUserId } from "./middleware/clerk";
 
 const app = new Hono();
 
-app.use('*', clerkMiddleware())
+app.use('/testAuth', clerkMiddleware())
 
 app.get("/", (c) => {
   return c.text(`Hello Hono!`);
