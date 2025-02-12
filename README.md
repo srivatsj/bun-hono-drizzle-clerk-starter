@@ -18,12 +18,14 @@ Generate SessionToken for an registered Clerk user:
 Test Auth protected endpoint
 
 ```sh
-curl -H "Authorization: Bearer CLERK_SESSION_TOKEN" http://localhost:3000/test```
+curl -H "Authorization: Bearer CLERK_SESSION_TOKEN" http://localhost:3000/test
+```
 
 ### Database Schema Setup
 
 Add your Drizzle schema files under server/db/schema directory.  
   
+
 <a href="https://idx.google.com/new?template=https://github.com/srivatsj/bun-hono-drizzle-clerk-starter">
   <img height="32" alt="Try in IDX" src="https://cdn.idx.dev/btn/try_dark_32.svg">
 </a>
