@@ -53,7 +53,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["bun" "run" "--hot" "server/main.ts"];
+          command = ["bun" "run" "--hot" "server/main.ts" "--port" "$PORT"];
           manager = "web";
         };
       };
