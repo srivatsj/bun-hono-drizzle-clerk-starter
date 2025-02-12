@@ -45,7 +45,7 @@
         default.openFiles = ["server/main.ts"];
       };
       onStart = {
-        start = "docker compose up -d"
+        start = "docker compose up -d";
       };
     };
     # Enable previews and customize configuration
