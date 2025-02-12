@@ -21,7 +21,7 @@
   channel = "unstable"; # or "stable-24.05"
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.bun,
+    pkgs.bun
     pkgs.docker
   ];
   services.docker.enable = true;
