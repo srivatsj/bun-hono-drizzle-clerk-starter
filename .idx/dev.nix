@@ -38,7 +38,7 @@
       onCreate = {
         install = ''
             bun init -y
-            bun add drizzle-orm hono @hono/clerk-auth @clerk/backend
+            bun add drizzle-orm hono @hono/clerk-auth @clerk/backend postgres
             bun add -D drizzle-kit
           '';
         # Open editors for the following files by default, if they exist:
