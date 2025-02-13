@@ -28,7 +28,7 @@
   # Sets environment variables in the workspace
   env = {
     DATABASE_URL="postgressql://user:password@localhost:5432/db";
-    PORT="3000";
+    PORT="9002";
     HOST="0.0.0.0";
   };
   idx = {
@@ -53,7 +53,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["bun" "run" "--hot" "server/main.ts" "--port" "$PORT"];
+          command = ["bun" "run" "--hot" "server/main.ts" "--" "--port" "$PORT"];
           manager = "web";
         };
       };
